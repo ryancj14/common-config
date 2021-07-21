@@ -1,0 +1,27 @@
+sphinx
+sphinx_materialdesign_theme
+sphinxcontrib_images
+sphinx-issues
+sphinx-material
+sphinxcontrib-napoleon
+# Markdown cross-reference solver library, posible use m2r
+-e git+https://github.com/SymbiFlow/sphinxcontrib-markdown-symlinks
+# HDL diagrams using Yosys + netlistsvg
+sphinxcontrib-hdl-diagrams
+# Module diagrams
+symbolator
+#Requires recommonmark
+sphinx-markdown-tables
+sphinx-autobuild
+sphinx-tabs==1.3.0
+
+sphinx-jinja==1.1.1
+breathe
+docutils
+recommonmark
+nmigen
+yowasp-yosys
+pycairo
+packaging
+# XML utils
+git+https://github.com/SymbiFlow/vtr-xml-utils.git#egg=vtr-xml-utils
